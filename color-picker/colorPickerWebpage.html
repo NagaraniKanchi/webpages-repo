@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Picker</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2867/2867978.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="colorPickerWebpage.css">
+   </head>
+   <body>
+      <div class="text-center colorPicker-bg-container d-flex flex-column justify-content-center" id="colorPickerContainerElement">
+         <div>
+            <h1 class="colorPicker-heading">Color Picker</h1>
+            <div class="mb-3">
+                <button class="button-color1" onclick="changeBgColorToGrayAndUpdateText()">#e0e0e0</button>
+                <button class="button-color2" onclick="changeBgColorToGreenAndUpdateText()">#6fcf97</button>
+                <button class="button-color3" onclick="changeBgColorToBlueAndUbdateText()">#56ccf2</button>
+                <button class="button-color4" onclick="changeBgColorToVoiletAndUpdateText()">#bb6bd9</button>
+            </div>
+            <p class="bc-paragraph">Background Color :<span class="color-hexa-code" id="colorHexaCode"> #ffffff</span></p>
+            <p class="paragraph-description">Try clicking on one of the colors above to change the background color of this page!</p>
+        </div>
+      </div>
+      <script src="colorPickerWebpage.js"></script>
+   </body>
+   </html>

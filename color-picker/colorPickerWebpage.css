@@ -1,0 +1,49 @@
+
+.colorPicker-bg-container{
+  background-color: #ffffff;
+  height: 100vh;
+}
+.colorPicker-heading
+  {
+     color:#222222;
+     font-family: serif;
+     font-weight: bold;
+  }
+  button{
+       width:100px;
+       height:100px;
+       margin:5px;
+       border-radius:10px;
+       border-width:3px;
+       border-color: #222222;
+       border-style:solid;
+  }
+  .button-color1{
+          background-color:#e0e0e0;
+  }
+  .button-color2{
+      background-color:#6fcf97;
+  }
+  .button-color3{
+      background-color:#56ccf2;
+  }
+  .button-color4{                
+      background-color:#bb6bd9;
+  }
+  .bc-paragraph{
+        color:#ffffff;
+        font-size:25px;
+        padding:5px;
+        background-color: #222222;
+        border-radius:10px;
+  }
+  .paragraph-description{
+         color:#222222;
+         font-size:20px;
+         font-family:serif;
+
+  }
+  .color-hexa-code{
+      color:#49a6e9;
+  }
+
