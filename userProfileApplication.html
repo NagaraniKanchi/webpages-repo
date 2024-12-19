@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .profile-container {
+            background-color: violet;
+            padding: 50px;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .profile-image {
+            height: 300px;
+            width: 300px;
+
+        }
+        .candidate-name {
+            color: #ffffff;
+            font-size: 30px;
+            font-family: serif;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .candidate-age {
+            color: #ffffff;
+            font-size: 30px;
+            font-family: serif;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <script>
+        let profileContainerEl = document.createElement("div");
+        profileContainerEl.id="profileContainer";
+        profileContainerEl.classList.add("profile-container")
+        document.body.appendChild(profileContainerEl);
+    
+        let imgElement=document.createElement("img");
+        imgElement.setAttribute("src","https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/user-profile-img.png");
+        imgElement.classList.add("img-profile");
+        profileContainer.appendChild(imgElement);
+
+        let headingElement=document.createElement("h1");
+        headingElement.textContent="Nagarani Kanchi";
+        headingElement.classList.add("candidate-name");
+        profileContainer.appendChild(headingElement);
+
+        
+        let paraElement=document.createElement("p");
+        paraElement.textContent="age:23";
+        paraElement.classList.add("candidate-age");
+        profileContainer.appendChild(paraElement);
+
+
+      
+        console.log(profileContainerEl);
+    </script>
+</body>
+
+</html>

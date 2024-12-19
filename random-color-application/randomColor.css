@@ -1,0 +1,10 @@
+.heading {
+    font-family: serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bg-container {
+    height: 100vh;
+}

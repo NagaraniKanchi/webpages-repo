@@ -1,0 +1,29 @@
+.bg-container {
+    background-color: #03356f;
+    height: 100vh;
+    padding: 30px;
+}
+
+.grocery-heading {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.grocery-list-card {
+    background-color: #b8e4f4;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 25px;
+
+}
+
+.label-content {
+    color: #ffffff;
+
+
+}
